@@ -14,26 +14,6 @@ import logo4 from '../assets/images/tailwind_logo.png'
 
   const Skills = () => (
 
-    // <section id="skills" className="py-20">
-
-    //   <div className="grid">
-
-    //     {skills.map((skill, index) => (
-
-    //       <div key={index} className="skill-item hover:scale-105">
-
-    //         <img src={skill.icon} className="skill-icon"/>
-
-    //         <h3>{skill.name}</h3>
-
-    //       </div>
-
-
-    //     ))}
-
-    //   </div>
-
-    // </section>
       <section id="skills" className="py-20">
 
   <div className="skills-icons">

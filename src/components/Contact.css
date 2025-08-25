@@ -1,0 +1,13 @@
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact-box {
+    font-size: 1.5rem;      /* 🔹 makes text larger */
+    line-height: 2.2rem;    /* 🔹 adds space between lines */
+    display: flex;
+    flex-direction: column; /* put email & phone underneath each other */
+    gap: 15px;              /* 🔹 adds spacing between items */
+  }
+  

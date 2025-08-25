@@ -1,19 +1,16 @@
 import React from "react";
+import "./Contact.css";
 
-  const Contact = () => (
 
-    <section id="contact" className="py-20">
+const Contact = () => (
+  <section id="contact" className="contact-section">
+    <div className="contact-box">
+      <div>kapestudiodev@gmail.com</div>
+      <div>00447594941337</div>
+    </div>
+  </section>
+);
 
-      <div className="bg-white p-8 flex">
+export default Contact;
 
-        <div className="w-1/2">...</div>
 
-        <div className="w-1/2">...</div>
-
-      </div>
-
-    </section>
-
-  );
-
-  export default Contact;

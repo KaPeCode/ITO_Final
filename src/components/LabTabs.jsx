@@ -130,22 +130,20 @@ export default function LabTabs() {
       gap: 2,
     }}
   >
-    <h2>CONTACT</h2>
-    <Contact />
-    <Box
-      sx={{
-        maxWidth: { xs: '90%', sm: '400px', md: '500px' },
-        textAlign: 'center',
-        wordBreak: { xs: 'break-word', md: 'normal' }, // wrap on mobile
-      }}
-    >
-      <div className="email-contact">
-        <p>kapestudiodev@gmail.com</p>
-      </div>
-      <div className="phone-contact">
-        <p>+44 759 494 1337</p>
-      </div>
-    </Box>
+      <h2>CONTACT</h2>
+      <Contact />
+      <Box
+        sx={{
+          maxWidth: { xs: '90%', sm: '400px', md: '500px' },
+          textAlign: 'center',
+          wordBreak: { xs: 'break-word', md: 'normal' },
+          fontSize: { xs: '1.rem', sm: '1.3rem', md: '1.5rem' }, 
+          lineHeight: 1.8, 
+          mt: 2,            
+        }}
+      >
+      </Box>
+
   </Box>
           </TabPanel>
 
